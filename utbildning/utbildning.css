@@ -1,0 +1,116 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image:url(../images/wp2757874-wallpaper-gif.gif);background-repeat:no-repeat;
+}
+
+h2 {
+    font-size: 40px;
+    padding:0;
+    margin:0;
+    font-family: 'Cinzel Decorative', cursive;
+    color:whitesmoke;
+}
+
+p {
+    color:whitesmoke;
+}
+
+.background-image {
+    background-image:none;
+    background-color:none;
+    height: 15%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-size:100px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    margin:0;
+    padding:0;
+    color:whitesmoke;
+}
+
+a {
+    font-family: 'Anton', sans-serif;
+    color:black;
+    text-shadow: 1px 1px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+
+.topnav {
+    background:url(../images/footer-background-02.jpg);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display:block;
+    color: #f2f2f2;
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    font-size: 22px;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image:url(../images/footer-background-02.jpg);
+    color:whitesmoke;
+    text-align: center;
+    font-size: 25px;
+ }
+
+.li1 a:hover {
+    font-size:18px;
+}
+
+.btnmain a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+@media screen and (max-width: 1117px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+    .background-image {
+        font-size:50px;
+        justify-self: center;
+        text-align:center;
+    }
+}
+
+@media screen and (max-width:500px) {
+    footer {
+        display:none;
+    }
+}
+  
+  
+
+
+
+   
+

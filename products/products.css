@@ -1,0 +1,193 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image:url(../images/wp2757874-wallpaper-gif.gif);background-repeat:repeat;
+}
+
+h1 {
+    text-align:center;
+    font-size: 45px;
+    padding:0;
+    margin:0;
+    font-family: 'Cinzel Decorative', cursive;
+    color:whitesmoke;
+}
+ 
+.snus {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+}
+
+.left-column {
+    width: 65%;
+    position: relative;
+}
+   
+.right-column {
+    width: 35%;
+    margin-top: 60px;
+}
+
+.produktbeskrivning {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+}
+
+.produktbeskrivning h1 {
+    font-weight: 300;
+    font-size: 52px;
+    color: whitesmoke;
+    letter-spacing: -2px;
+}
+
+.produktbeskrivning p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939E;
+    line-height: 24px;
+}
+
+.köp {
+    color:whitesmoke;
+}
+
+span {
+    color:whitesmoke;
+}
+
+.btnköp {
+    color:whitesmoke;
+}
+
+p {
+    color:whitesmoke;
+}
+
+.bild2 {
+    height:65%;
+    width:65%;
+    margin-top:15%;
+}
+
+.background-image {
+    background-image:none;
+    background-color:none;
+    height: 15%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-size:100px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    margin:0;
+    padding:0;
+    color:whitesmoke;
+}
+
+a {
+    font-family: 'Anton', sans-serif;
+    color:black;
+    text-shadow: 1px 1px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+
+.topnav {
+    background:url(../images/footer-background-02.jpg);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display:block;
+    color: #f2f2f2;
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    font-size: 22px;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image:url(../images/footer-background-02.jpg);
+    color:whitesmoke;
+    text-align: center;
+    font-size: 25px;
+ }
+
+ @media screen and (max-width: 1117px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+    .background-image {
+        font-size:50px;
+        justify-self: center;
+        text-align:center;
+    }
+}
+
+@media screen and (max-width:940px) {
+    footer {
+        display:none;
+    }
+}
+
+@media (max-width: 940px) {
+    .snus {
+      flex-direction: column;
+      margin-top: 60px;
+    }
+   
+    .left-column,
+    .right-column {
+      width: 100%;
+}
+
+.right-column {
+    background:url(../images/footer-background-02.jpg)
+}
+   
+.left-column img {
+      width: 300px;
+      right: 0;
+      top: -65px;
+      left: initial;
+    }
+}
+   
+@media (max-width: 535px) {
+    .left-column img {
+      width: 220px;
+      top: -85px;
+    }
+}
+
+  
+  
+
+
+
+   
+
